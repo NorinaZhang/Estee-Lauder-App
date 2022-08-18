@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -631,7 +630,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Journal" largeTitleDisplayMode="always" id="2oj-Le-YhK">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="BfJ-Wd-LuK">
-                            <color key="tintColor" name="AccentColor"/>
                             <connections>
                                 <segue destination="h7N-A4-nrU" kind="show" id="5tT-dt-VzU"/>
                             </connections>
@@ -1227,9 +1225,6 @@ Oil-free tex</string>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="moon.stars" catalog="system" width="124" height="128"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
