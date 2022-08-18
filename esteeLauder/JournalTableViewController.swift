@@ -19,7 +19,7 @@ class JournalTableViewController: UITableViewController {
     func createJournal() -> [Journal] {
 
       let swift = Journal()
-      swift.name = "Learn Swift"
+    // swift.name = "Learn Swift"
     
 
       let dog = Journal()
