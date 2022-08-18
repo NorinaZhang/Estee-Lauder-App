@@ -19,12 +19,9 @@ class JournalTableViewController: UITableViewController {
     func createJournal() -> [Journal] {
 
       let swift = Journal()
-    // swift.name = "Learn Swift"
-    
+      swift.name = "Your journal entries will appear below:"
 
-      let dog = Journal()
-
-      return [swift, dog]
+      return [swift]
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
